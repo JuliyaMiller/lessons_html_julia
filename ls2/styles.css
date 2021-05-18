@@ -1,0 +1,23 @@
+
+.title{
+    font-size: 120px;
+    color: red;
+}
+h1.title{
+    color: blue;
+}
+body h1.title{
+    color: green;
+}
+p{
+    font-size: 20px;
+}
+p.text{
+    color: brown;
+}
+p.text span.ololo{
+    color: black;
+}
+.kokok{
+    color: goldenrod;
+}
