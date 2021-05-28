@@ -9,11 +9,25 @@ h1, h2, h3, h4, h5, h6, p, a{
     text-decoration: none;
 }
 section.wrapper{
-    background-color: blue;
-    width: 100px;
+    width: 100vw;
+    font-size: 0px;
+    background-image: url('https://assets.unenvironment.org/2020-01/nature-3595382_1920.jpg');
+    background-position-x: center;
+    background-position-y: top;
+    height: 100vw;
+    background-repeat: no-repeat;
+}
+section.wrapper > div{
+    width: 50%;
     height: 100px;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 10px;
+    display: inline-block;
+    font-size: 10px;
+}
+div.l{
+}
+
+
+div.r{
+    text-align: left;
 }
 
