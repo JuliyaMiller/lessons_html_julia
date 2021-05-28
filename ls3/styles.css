@@ -1,16 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-}
-article.wrapper{
-    width: 300px;
-    margin: 0 auto;
+    box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6, p, a{
     font-size: 16px;
     color: black;
     text-decoration: none;
 }
-article.wrapper > *{
-    height: 100vh;
+section.wrapper{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
 }
+
