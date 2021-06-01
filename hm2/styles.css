@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+section.wrapper{
+    width: 100vw;
+    font-size: 20px;
+    background-color: rgb(156, 124, 124);
+    background-position-x: center;
+    background-position-y: top;
+    height: 100vw;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0xp;
+}
+section.wrapper > div{
+    height: 100px;
+    display: inline-block;
+    padding-top: 40px;
+}
+div.bouncy{
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 140px;
+}
+div.hello{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.about{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.services{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.portfolio{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.team{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.blog{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+div.contact{
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+}
+.cafe{
+    width: 100%;
+    font-weight:normal;
+    text-align: center;
+    margin-top: 140px;
+}
+.latin{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
