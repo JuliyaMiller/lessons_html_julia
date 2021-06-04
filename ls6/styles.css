@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+header.header{
+    height: 1000px;
+    /*background-image: url('./foto_DZ4.jpg');*/
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header-content{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 0;
+}
+div.header_top > div{
+    vertical-align: middle;
+    display: inline-block;
+    width: 48%;
+}
+.logo h1, .logo_mini h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.logo{
+    position: relative;
+    left: 3px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 40 px;
+}
+
+.logo_mini{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 60px;  
+}
+
+.header_bottom{
+    position: relative;
+    top: 700px;
+}
+
+.header_bottom> div{
+    display: inline-block;
+    width: 48%;
+}
+    
+.text{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding-left: 60px;
+}
+.number{
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-right: 60px;
+}
+.text h3{
+    font-weight: 100;    
+}
+
+.ycircle{
+    position: absolute;
+    background-color: #e6ba38;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+}
+.man{
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 30%;
+}
+.vertical_line{
+    position: absolute;
+    height: 450px;
+    width: 4px;
+    border-left: 4px  solid black;
+    top: 20%;
+    left: 10%;
+}
+.number h1:hover{
+    color: tomato;
+}
+.vertical_line:hover{
+    border-left: 4px  solid red;
+}
