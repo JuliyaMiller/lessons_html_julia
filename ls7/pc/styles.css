@@ -1,0 +1,24 @@
+/*absolute, relative*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.b{
+    height: 200vh;
+    background-color: blue;
+}
+.l{
+    position: absolute;
+    background-color: black;
+    height: 50%;
+    width: 100vw;
+    top: 50%;
+}
+.w{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    height: 50%;
+    top: 0;
+}

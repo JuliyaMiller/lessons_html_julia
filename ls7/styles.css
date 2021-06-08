@@ -1,0 +1,40 @@
+.b{
+    height: 20vw;
+    width: 100%;
+}
+.b:first-child{
+    background-color: coral;
+}
+.b:nth-child(2){
+    background-color: gold;
+}
+.b:last-child{
+    background-color: wheat;
+}
+.b:nth-child(odd){
+    border: 1px solid black;
+}
+.b:nth-child(even){
+    width: 50%;
+}
+.b:hover{
+    background-color: white;
+}
+
+
+/*http://s1.iconbird.com/ico/0712/iconshockrealvista/w400h4001341689813administrator.png*/
+.a{
+    margin-top: 200px;
+    padding-left: 20px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+.a::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 0;
+    position: relative;
+    background-image: url('http://s1.iconbird.com/ico/0712/iconshockrealvista/w400h4001341689813administrator.png');
+}
