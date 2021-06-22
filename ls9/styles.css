@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FL{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;    
+    justify-content:space-around;
+}
+
+.FL > div{
+    height: 50px;
+    border: 1px solid black;
+    flex-basis: 100px;
+}
+
+div:nth-child(3){
+
+}
+div:nth-child(4){
+    flex-shrink: 0;
+}
+
+
+div:last-child{
+    align-self: flex-end;
+
+}
