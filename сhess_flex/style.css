@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chess{
+    width: 1256px;
+    background: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;    
+    justify-content:space-around; 
+}
+.w{
+    width: 157px;
+    height: 157px;
+    background: white;
+}
+.b{
+    width: 157px;
+    height: 157px;
+    background: black; 
+}

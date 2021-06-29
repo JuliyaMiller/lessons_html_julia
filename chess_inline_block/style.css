@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.chess{
+    width: 100vw;
+    height: 100vw;
+    display: block;
+    background: white;
+    border: 2px solid black;
+}
+
+.chess > div{
+    width: 12.2%;
+}
+
+.b{
+    height: 156.16px;
+    background: black;
+   
+}
+.w{
+    height: 156.16px;
+    background: white;
+}

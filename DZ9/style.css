@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    color: white;
+    font-size: 20px;
+}
+
+.header{
+    position: relative;
+    height: 100px;
+    background-color: #5b0f99;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 50px;
+}
+
+.name{
+    font-size: 20px;
+    position: relative;
+    width: 1152px;
+    color: white;
+    left: 50px;
+}
+
+.logo{
+    width: 60px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    user-select: none;
+}
+
+.search_input{
+    width: 500px;
+    height: 40px;
+    padding-left: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input_space{
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    left: calc(50vw - 300px);
+    top: 30px;
+    font-size: 0;
+}
+
+.input_space::before{
+    content: '';
+    background-image: url(./kisspng-computer-icons-search-5ac0b4a283c208.7365441815225785945397.png);
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+}
+.input_find{
+    color: #fff;
+    background-color: #80668f;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.item{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 50px;
+    border: 2px solid #5b0f99;
+}
+
+
+.footer{
+    height: 250px;
+    background-color: #5b0f99;
+    display: flex;
+    justify-content: stretch;
+}
+
+.f_1{
+    position: relative; 
+    padding-top: 55px;
+}
+
+.f_2{
+    position: relative;
+    padding-top: 55px;
+    padding-left: 100px;
+    color: white;
+}
+
+.f_3{
+    position: relative;
+    padding-top: 55px;
+    padding-left: 100px;
+    color: white;
+}
+
+.f_4{
+    position: relative;
+    padding-top: 200px;
+    padding-left: 100px;
+    color: white;
+}
