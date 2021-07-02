@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+    background-color: bisque;
+}
+
+@media (max-width: 330px){
+    body{
+        background-color: black;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 770px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 1040px){
+    body{
+        background-color: brown;
+    }
+}
+
+div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.desc{
+    height: 100px;
+    overflow-y: auto;
+}
+
+.check{
+
+}
+
+.check:checked + .lol{
+    color: blue;
+}
