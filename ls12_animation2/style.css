@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+.scene{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: steelblue;
+    box-shadow: 0 -400px 300px -300px orangered inset;
+    animation: sky 20s infinite linear;
+}
+
+.sun{
+    position: absolute;
+    left: 0;
+    top: 130vh;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: orangered;
+    animation: sun-move 20s infinite linear;
+}
+
+@keyframes sun-move {
+    0%{
+        left: 0vw;
+    }
+    10%{
+        left: 10vw;
+    }
+    50%{
+        left: 50vw;
+        top: 20vh;
+        width: 275px;
+        height: 275px;
+        background-color: yellow;
+    }
+    98%{
+        left: 98vw;
+        top: 130vh;
+    }
+}
+
+
+@keyframes sky {
+    0%{
+        background-color: darkslateblue;
+    }
+    50%{
+        background-color: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    85%{
+        background-color: darkblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;
+    }
+    100%{
+        background-color: darkslateblue;
+    }
+}
