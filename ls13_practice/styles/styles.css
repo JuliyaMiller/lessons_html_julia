@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header.header{
+    min-height: 100vh;
+    background-color: black;
+    background-image: url('../img/bgh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+} 
+.pattern{
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header_img{
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 12px;
+}
+.header_text{
+    position: relative;
+    top: calc(42%);
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.main{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.catalog{
+    display: grid;
+    grid-template: "post1 post1 post2"
+                    "post1 post1 post3"
+                    "post1 post1 post4"
+                    "post9 post10 post11"
+                    "post6 post5 post5"
+                    "post7 post5 post5"
+                    "post8 post5 post5"
+                    ;
+                    
+}
+
+@media (max-width: 700px) {
+    .catalog{
+        display: grid;
+        grid-template: "post1"
+        "post5"
+        "post3"
+        "post4"
+        "post2"
+        "post6"
+        "post7"
+        "post8"
+        "post9"
+        "post10"
+        "post11"
+                        ;            
+    }
+    .catalog > div{
+        height: 200px;
+    }
+    
+}
+
+.catalog > div{
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.catalog > div.post1{
+    grid-area: post1;
+    height: 600px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    background-image: url('../img/h.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.catalog > div.post1:hover{
+    background-size: 150%;
+    background-position: center;
+}
+.catalog > div{
+    position: relative;
+    z-index: 10;
+}
+.catalog > div:hover > div{
+    display: none;
+}
+
+.catalog > div > div{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    z-index: 10;
+}
+
+.catalog > div.post2{
+    grid-area: post2;
+}
+.catalog > div.post3{
+    grid-area: post3;
+}
+.catalog > div.post4{
+    grid-area: post4;
+}
+.catalog > div.post5{
+    grid-area: post5;
+    height: 600px;
+}
+.catalog > div.post6{
+    grid-area: post6;
+}
+.catalog > div.post7{
+    grid-area: post7;
+}
+.catalog > div.post8{
+    grid-area: post8;
+}
+.catalog > div.post9{
+    grid-area: post9;
+}
+.catalog > div.post10{
+    height: 200px;
+    grid-area: post10;
+}
+.catalog > div.post11{
+    grid-area: post11;
+}
