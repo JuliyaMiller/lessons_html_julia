@@ -77,6 +77,7 @@ let day = (K % 7);
 console.log(K, week, day, days[day])
 */
 
+/*
 let A, B, C;
 A =  Math.floor(Math.random() * 200 - 100);
 B =  Math.floor(Math.random() * 200 - 100);
@@ -86,3 +87,4 @@ console.log(A, B, C)
 if(A > 0 || B > 0 || C > 0){
     console.log("Хотя бы одно из чисел A, B, C положительное")
 }
+*/
