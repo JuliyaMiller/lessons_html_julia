@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+   border: 2px solid #d4d9dd; 
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+   padding-left: 52px;
+   height: 109px;
+   font-size: 31.44px;
+   color: #1b2125;
+}
+input:focus, input:active{
+    border: 2px solid #0095f8;
+    outline: none;
+}
+.content{
+    width: 1428px;
+    margin: 0 auto;
+}
+
+/*------------------ nav - step ----------------------------------*/
+.nav_step{
+    font-size: 0;
+    padding-top: 120px;
+    margin-bottom: 200px;
+
+}
+div.step{
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    border-bottom: 2px solid #d4d9dd;
+}
+div.step > h2{
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 27px;
+    color: #d4d9dd;
+}
+div.step.active{
+    border-bottom: 2px solid black;
+}
+div.step.active > h2{
+    color: #3a3f42;
+}
+/*------------------ nav - step ----------------------------------*/
+
+.inputs_place{
+    font-size: 0px;
+}
+
+.in_pl__title{
+    font-weight: 400;
+    font-size: 49.8px;
+    color: #1b2125;
+    margin-bottom: 110px;
+}
+
+.in__pl__input{
+    display: inline-block;
+    padding-top: 40px;
+    position: relative;
+}
+.in__pl__input.f{
+    margin-right: 46px;
+}
+.in__pl__input.s{
+    margin-bottom: 50px;
+}
+.inp__desc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #d4d9dd;
+    font-size: 24px;
+    font-weight: bold;
+}
+.input_large{
+    width: 1428px;
+}
+.input__small{
+    width: 691px;
+}
+button.in_pl__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: #0095f8;
+    height: 109px;
+    width: 143px;
+    border: none;
+    border: 2px solid #d4d9dd;
+    border-radius: 3px;
+    font-size: 25.15px;
+}
+
+#postal_code{
+    border-radius: 3px;
+    padding-right: 147px;
+}
