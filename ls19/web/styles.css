@@ -22,6 +22,44 @@ input:focus, input:active{
     margin: 0 auto;
 }
 
+
+@media (max-width: 819px) {
+    .content{
+        width: 100%;
+    }
+
+    .inputs_place{
+        text-align: center;
+    }
+
+    input.input__small, input.input_large{
+        width: 100%;
+    }
+
+    div.in__pl__input, div.in__pl__input.f, div.in__pl__input.s{
+        width: 90%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .step.active{
+        width: 100%;
+    }
+
+    .nav_step > .step:not(:first-child){
+        display: none;
+    }
+
+    .button__space{
+        padding-top: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .button__space > button.back_btn{
+        margin-bottom: 50px;
+    }
+}
+
 /*------------------ nav - step ----------------------------------*/
 .nav_step{
     font-size: 0;
@@ -49,6 +87,7 @@ div.step.active > h2{
 }
 /*------------------ nav - step ----------------------------------*/
 
+/* ------------------------- input soace --------------------------------*/
 .inputs_place{
     font-size: 0px;
 }
@@ -97,9 +136,53 @@ button.in_pl__btn{
     border: 2px solid #d4d9dd;
     border-radius: 3px;
     font-size: 25.15px;
+    cursor: pointer;
 }
 
 #postal_code{
     border-radius: 3px;
     padding-right: 147px;
 }
+
+
+/*--------------------------------------------------------*/
+/*------------------------- button -------------------------------*/
+
+
+.button__space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 153px;
+}
+
+.button__space > a.back_link{
+    color: #7e8e99;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.button__space > button.back_btn{
+    height: 107px;
+    width: 501px;
+    border-radius: 3px;
+    border: 1px solid #0077e2;
+    background-color: #0077e2;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button__space > button.back_btn:hover{
+    background-color: white;
+    color: #0077e2;
+
+}
+
+.button__space > button.back_btn:active{
+    transform: scale(.90);
+}
+
