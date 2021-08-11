@@ -1,9 +1,41 @@
-.a1{
-    width: 300px;
-    height: 300px;
-    border: 1px salmon solid;
+button{
+    padding: 10px 50px;
+    background-color: darkblue;
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+
+    cursor: pointer;
 }
 
-h1.h1{
+#b1{
+    background-color: darkblue;
     color: white;
+    border: 1px solid darkblue;  
+}
+
+#b2{
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen;  
+}
+
+#b3{
+    background-color: red;
+    color: white;
+    border: 1px solid red;  
+}
+
+#b4{
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;  
+}
+
+.persone{
+    width: 100px;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    background-color: black;
 }
