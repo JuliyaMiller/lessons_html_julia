@@ -1,0 +1,11 @@
+:root{
+    --fdsa: rgb(38, 128, 86);
+}
+
+.good{
+    width: 300px;
+    min-height: 400px;
+    background-color: var(--fdsa);
+    margin: 20px;
+    display: inline-block;
+}
