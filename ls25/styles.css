@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gamer{
+    background-image: url('./1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    transition: .1s;
+}
+
+.coin{
+    background-image: url('./coin.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+}
+.coin#i1{
+    left: 400px;
+    top: 400px;
+}
+
+.coin#i2{
+    left: 700px;
+    top: 400px;
+}
+.coin#i3{
+    left: 100px;
+    top: 400px;
+}
+.coin#i4{
+    left: 500px;
+    top: 400px;
+}
+.coin#i5{
+    left: 700px;
+    top: 300px;
+}
+.coin#i6{
+    left: 700px;
+    top: 600px;
+}
+.coin#i7{
+    left: 700px;
+    top: 800px;
+}
+.coin#i8{
+    left: 700px;
+    top: 400px;
+}
+.coin#i9{
+    left: 300px;
+    top: 600px;
+}

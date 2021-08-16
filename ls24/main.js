@@ -27,9 +27,7 @@ document.addEventListener("input",
     }
 )
 
-
 const root = document.querySelector('#root');
-
 
 for(let i = 0; i < 10; i++){
     const para = document.createElement("div");
