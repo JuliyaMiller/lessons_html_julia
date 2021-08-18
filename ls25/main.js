@@ -6,7 +6,7 @@ let free_guy_Y = 0;
 const sizeX = window.innerWidth;
 const sizeY = window.innerHeight;
 
-console.log(coins)
+console.log(coins);
 console.log(sizeX, sizeY, free_guy_X, free_guy_Y);
 
 //что движение. И как наш должен двигаться? 

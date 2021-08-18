@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/Philosopher-Bold.ttf');
+}
+:root{
+    --own-black: #150C01;
+    --own-orange: #DC780B; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Philosopher';
+}
+p, span{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: var(--own-black);
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: var(--own-orange);
+}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*----------------------------------------------------*/
+.header{
+    padding-top: 30px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav > *{
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.header__nav_left{
+    display: flex;
+    align-items: center;
+}
+.header__nav_left > *:first-child{
+    margin-right: 35px;
+}
+.header__nav_left > a{
+    opacity: 60%;
+    margin-right: 40px;
+}
+.header__nav_left > a:hover{
+    opacity: 100%;
+    color: var(--own-orange);
+}
+.header__nav_right_btn{
+    padding: 14px 30px;
+}
+.header__center{
+    padding-top: 160px;
+    width: 555px;
+}
+.header__title{
+    font-size: 48.83px;
+    line-height: 57.6px;
+    margin-bottom: 42px;
+}
+.header__description{
+    opacity: 70%;
+    margin-bottom: 50px;
+}
+.header__btn_space > button{
+    padding: 20px 40px;
+    border: 1px solid var(--own-orange);
+    font-weight: 500;
+}
+.header__btn_space > .header__btn_details{
+    margin-left: 30px;
+    background-color: #fff;
+    color: var(--own-orange);
+    border: 1px solid #dc770b10;
+}
+.herader__img{
+    position: absolute;
+    top: 30px;
+    right: -150px;
+    z-index: -1;
+}
+/*-----------------------------------------------*/
+.main{
+    padding-top: 115px;
+}
+.main__top_title{
+    font-weight: 500;
+    color: var(--own-orange);
+    opacity: 70%;
+    letter-spacing: 4px;
+    font-style: medium;
+    margin-bottom: 7px;
+}
+.main__title{
+    font-size: 31.25px;
+}
+.main__features{
+    text-align: center;
+}
+
+.main__features > h2.main__title{
+    line-height: 35px;
+}
+
