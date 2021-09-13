@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pole{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px;
+    cursor: pointer;
+    grid-template-areas: 
+    "1 2 3"
+    "4 5 6"
+    "7 8 9";
+
+}
+
+#pole > *{
+    border: 1px solid black;
+}
+

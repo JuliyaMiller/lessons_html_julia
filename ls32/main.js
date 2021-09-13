@@ -2,15 +2,13 @@ class Geometry{
     static Pi = 3.14;
     static Exp = 2.7;
 
-
     constructor(){
 
     }
-
-
 }
-
-
+// класс Круг !!
+// класс Треугольник 
+// класс Правильный треугольник (60*)
 
 class Rigth_Triangle extends Geometry{
     
@@ -38,9 +36,6 @@ class Rigth_Triangle extends Geometry{
         this.B = b;
         this.C = c;
     }
-
-
-
 }
 
 ABC = new Rigth_Triangle(3, 4, 5)
