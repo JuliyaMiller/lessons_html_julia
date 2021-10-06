@@ -43,3 +43,4 @@ $filed.addEventListener('focus', function(event){
 $filed.addEventListener('blur', (event) => {
     $filed.parentNode.classList.remove('active');
 })
+
