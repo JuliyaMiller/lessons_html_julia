@@ -1,11 +1,9 @@
 /* eslint-disable no-undef */
 import './App.css';
+import UserList from './componets/UserList';
 
 export default function App(){
-    let name = "Sviatoslav";
     return (
-      <div className="app">
-        <h2>Hello, {name}</h2>
-      </div>
+      <UserList/>
     );
 }
