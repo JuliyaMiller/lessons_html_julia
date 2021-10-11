@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 export default class Form extends Component {
+    
+
     constructor(props){
         super(props);
         this.state = {
@@ -20,6 +22,10 @@ export default class Form extends Component {
         const newUser = {name, id: user ? user.id: Date.now() };
         if(!newUser.name) return alert('Name is required');
         this.props.onSubmitUser(newUser);
+
+        this.setState({
+            newUserName: ''
+        })
     }
 
     render() {

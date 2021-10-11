@@ -1,3 +1,15 @@
 .app{
   padding: 30px;
 }
+.list{
+
+}
+.user-item{
+  display: inline-block;
+  padding: 30px 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 100px;
+  text-align: center;
+}

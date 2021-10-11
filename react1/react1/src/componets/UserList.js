@@ -11,6 +11,17 @@ export default class UserList extends Component {
         ],
     };
 
+    editUser = (newName, id) => {
+        this.setState({
+            users: this.state.users.map( user => {
+                if(user.id === id){
+                    user.name = newName
+                }
+                return user
+            })
+        })
+    }
+
     addUser = newUser => {
         this.setState({
             users: [...this.state.users, newUser]
@@ -33,6 +44,8 @@ export default class UserList extends Component {
                         <UserItem 
                             key={user.id}
                             user={user}
+                            onEdit = {this.editUser}
+                            onDelete={this.remove}
                         />    
                     )}
                 </ul>
@@ -41,7 +54,3 @@ export default class UserList extends Component {
     }
 }
 
-/*
-    const {} = 
-    const [] = 
-*/ 
