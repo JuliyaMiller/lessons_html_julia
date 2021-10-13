@@ -1,9 +1,13 @@
 /* eslint-disable no-undef */
 import './App.css';
-import UserList from './componets/UserList';
+import Blog from './componets/ls2/Blog';
+import { Container } from 'semantic-ui-react'
+
 
 export default function App(){
     return (
-      <UserList/>
+      <Container>
+        <Blog/>
+      </Container>
     );
 }
